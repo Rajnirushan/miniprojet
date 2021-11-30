@@ -1,22 +1,23 @@
+#include "Windows.h"
+#include <shellapi.h>
+#include <tchar.h>
 
 #include <iostream>
-
+using namespace std;
 int main()
 {
-    barcode bCode; // déclaration objet
-    bCode.setX(100); // 100 pixels depuis la gauche sinon
-    // le barcode sort de la feuille imprimée
-    bCode.setY(100); // --- même commentaire
-    bCode.setFontSize(5);
-    bCode.setScale(3);
-    bCode.setTitre("CodeBarre"); // Titre du code barre ("désignation")
-    bCode.setAscii("4865154845125472525");// Code en lui-même
-    bCode.startPrint(); // début impression
-    bCode.encode_and_print(); // encodage code et impression
-    bCode.endPrint(); // fin d'impression
+	//string URL = "http://www.google.fr";
+	string URL = "localhost/projetSante/code.php";
 
+	string id;
+	cout << "scanner qrcode " << endl;
+	cin >> id;
+	//cout <<"id:"<< id;
+	URL = URL + "?identifiant=" +id;
+	cout << URL << endl;
 
-
-
+	ShellExecuteA(NULL, "open", URL.c_str(), NULL, NULL, SW_SHOWNORMAL); //ouvre navigateur avec l'url
 }
+
+
 
