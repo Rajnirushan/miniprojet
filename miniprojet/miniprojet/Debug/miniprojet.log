@@ -1,2 +1,8 @@
 ﻿  miniprojet.cpp
+C:\Users\nrajendram\Documents\mini-projet\miniprojet\miniprojet\EasyBMP.hpp(136,36): warning C4244: 'initialisation' : conversion de 'int64_t' en 'unsigned int', perte possible de données
+C:\Users\nrajendram\Documents\mini-projet\miniprojet\miniprojet\EasyBMP.hpp(138,42): warning C4244: 'initialisation' : conversion de 'int64_t' en 'unsigned int', perte possible de données
+C:\Users\nrajendram\Documents\mini-projet\miniprojet\miniprojet\EasyBMP.hpp(304,49): warning C4244: '=' : conversion de 'int64_t' en 'int', perte possible de données
+C:\Users\nrajendram\Documents\mini-projet\miniprojet\miniprojet\EasyBMP.hpp(313,23): warning C4244: '=' : conversion de 'int64_t' en 'unsigned int', perte possible de données
+C:\Users\nrajendram\Documents\mini-projet\miniprojet\miniprojet\EasyBMP.hpp(314,23): warning C4244: '=' : conversion de 'int64_t' en 'unsigned int', perte possible de données
+C:\Users\nrajendram\Documents\mini-projet\miniprojet\miniprojet\EasyBMP.hpp(356,17): warning C4101: 'colorBuffer' : variable locale non référencée
   miniprojet.vcxproj -> C:\Users\nrajendram\Documents\mini-projet\miniprojet\Debug\miniprojet.exe
